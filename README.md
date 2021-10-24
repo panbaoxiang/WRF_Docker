@@ -9,7 +9,12 @@ wget  https://github.com/NCAR/WRF_DOCKER/archive/refs/heads/master.zip
 ```
 docker   build   -t   wrf_tutorial   --build-arg argname=tutorial   .
 ```
-### Step 3: Enter the container land
+### Step 3: Create volume
+
+docker   run   -it   --name   teachme   wrf_tutorial   /bin/tcsh
+```
+```
+### Step 4: Enter the container land
 ```
 docker   run   -it   --name   teachme   wrf_tutorial   /bin/tcsh
 ```
