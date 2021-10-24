@@ -1,8 +1,11 @@
 # WRF_Docker
 WRF docker
-
-### Step 1: wget https://github.com/NCAR/WRF_DOCKER/archive/refs/heads/master.zip
-### Step 2: build image
+### Step 0: Install docker
+### Step 1: Get installation code
+```
+wget  https://github.com/NCAR/WRF_DOCKER/archive/refs/heads/master.zip
+```
+### Step 2: Build image
 ```
 docker   build   -t   wrf_tutorial   --build-arg argname=tutorial   .
 ```
